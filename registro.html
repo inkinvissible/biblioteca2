@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+</head>
+<body>
+    <h1> 
+        Realizar un PERÉSTAMO
+    </h1>
+    <h2>Registrar préstamo</h2>
+    <form method="post" action="verificarprestamo.php">
+        Nombre del libro: <input type="text" name="nombrelibro" required><br>
+        Nombre del responsable: <input type="text" name="nombreresponsable" required><br>
+        Curso del responsable: <input type="text" name="cursoresponsable" required><br>
+        Fecha de préstamo: <input type="date" name="fechaprestamo" required><br>
+        Fecha de devolución: <input type="date" name="fechadevolucion" required><br>
+        <input type="submit" value="Guardar préstamo">
+    </form>
+    <a href="index.html">VOLVER</a>
+
+</body>
